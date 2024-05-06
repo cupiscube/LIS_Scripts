@@ -1,6 +1,7 @@
 import WorksWPNames
 import ResultFormulas
 
+
 print("""Script by Danil Batrakov""")
 
 
