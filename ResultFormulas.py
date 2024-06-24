@@ -143,6 +143,9 @@ def fix_formulas():
         cur.close()
         print(f'Работа {work} обновлена.')
 
+    connection.close()
+    return "Успех!"
+
 
 if __name__ == '__main__':
     fix_formulas()
